@@ -120,6 +120,31 @@
   }
 }
 
+@media (width <= 870px) {
+  .gallery {
+    width: min(
+      870px,
+      100% - var(--px-base)*2
+    );
+
+    & .content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    & .content figure > img {
+      height: 16rem;
+
+      object-fit: cover;
+    }
+
+    & .content figcaption {
+      padding: .75rem 1rem;
+    }
+  }
+}
+
 @keyframes imgAppear {
   from {
     opacity: 0;
