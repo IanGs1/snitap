@@ -16,6 +16,8 @@
   --text-base: 1rem;
   --text-lg: 2.5rem;
   --text-xl: 4rem;
+
+  --px-base: 2rem;
 }
 
 *,
@@ -48,4 +50,14 @@ h2 {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+@media (width <= 870px) {
+  :root {
+    --text-sm: .75rem; 
+    --text-lg: 1.25rem;
+    --text-xl: 2rem;
+
+    --px-base: 1.5rem;
+  }
 }

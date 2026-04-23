@@ -48,3 +48,12 @@ nav {
     }
   }
 }
+
+@media (width <= 870px) {
+  nav {
+    width: min(
+      870px,
+      100% - var(--px-base)*2
+    )
+  }
+}
