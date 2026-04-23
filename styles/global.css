@@ -1,10 +1,10 @@
 :root {
   --brand-sun: #FFCD1E;
   --brand-sky-mid: #06B6D4;
-  --brand-joy-mid: #67E8F9;
-  --brand-leaf-mid: #DB2777;
-  --brand-sky-light: #F472B6;
-  --brand-joy-light: #16A34A;
+  --brand-joy-mid: #DB2777;
+  --brand-leaf-mid: #16A34A;
+  --brand-sky-light: #67E8F9;
+  --brand-joy-light: #F472B6;
 
   --text-color: #000000;
   --highlights: #000000;
@@ -36,7 +36,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: var(--text-xlg);
+  font-size: var(--text-xl);
   line-height: 1.25;
 }
 

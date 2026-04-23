@@ -1,3 +1,6 @@
+/* GLOBAL SETTINGS*/
 @import url("global.css");
 
+/* STRUCTURE COMPONENTS */
 @import url("header.css");
+@import url("hero.css")
