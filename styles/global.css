@@ -31,6 +31,12 @@
 
 html, button {
   font: 500 var(--text-base)/1.5 var(--ff-base);
+
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 h1, h2 {
